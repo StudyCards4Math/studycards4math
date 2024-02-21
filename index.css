@@ -1,0 +1,137 @@
+#navbar {
+    padding: 10px;
+}
+
+#navbar a {
+    color: rgb(255, 255, 255);
+}
+
+#navbar .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+#navbar .active {
+    color: #ffc400;
+}
+
+#navbar .nav-link:hover {
+    color: rgb(255, 196, 0);
+}
+
+
+#search-box {
+    background-color: lightgrey;
+    min-height: fit-content;
+    padding: 10px;
+    margin-left: 10px;
+    
+}
+
+#result-box {
+    padding: 10px;
+    margin-left: 10px;
+    
+}
+
+#result-table {
+    width: 100%;
+}
+
+#result-table th, td {
+    padding: 3px;
+    vertical-align: top;
+    
+}
+
+
+#result-table thead {
+    background-color: lightgrey;
+}
+
+.excercise {
+    background-color: white;
+}
+
+.flashcards {
+    background-color: lightgrey;
+}
+
+.anchorposition {
+    padding-top: 60px;
+}
+
+
+.backtotop {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#navbar-button
+{
+    background-color: white;
+    border-color: lightgray;
+}
+
+.link {
+    color: rgb(170, 125, 0);
+}
+
+
+.link:hover {
+    color: rgb(110, 81, 0);
+}
+
+.flashcards {
+    margin: 20px;
+}
+
+.form-button {
+    width : 196px;
+}
+
+.form-checkbox {
+    
+    gap: 0.5em
+}
+
+#filterGrade {
+    background-color: orange;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: x-large;
+
+}
+
+
+.library-link {
+    font-size: large;
+}    
+
+
+@media print {
+    #navbar {
+        display: none; 
+    } 
+    #search-box {
+        display: none; 
+    } 
+    #help {
+        display: none; 
+    } 
+    .backtotop {
+        display: none; 
+    }
+    .hideprint {
+        display: none; 
+    }
+    #result-table {
+        border-top : 2px;
+        border-color: black;
+    }
+
+}

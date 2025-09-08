@@ -94,12 +94,12 @@
             buttonContainer.classList.add('d-flex', 'justify-content-between', 'align-items-center', 'w-100');
 
             const prevButton = document.createElement('button');
-            prevButton.textContent = '< Előző';
+            prevButton.textContent = '< Previous';
             prevButton.classList.add('btn', 'btn-secondary', 'm-1');
             prevButton.addEventListener('click', showPreviousImage);
 
             const nextButton = document.createElement('button');
-            nextButton.textContent = 'Következő >';
+            nextButton.textContent = 'Next >';
             nextButton.classList.add('btn', 'btn-secondary', 'm-1');
             nextButton.addEventListener('click', showNextImage);
 
